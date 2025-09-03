@@ -13,7 +13,7 @@ This is a React TypeScript project for redesigning the Sentisum customer feedbac
 - **Tailwind CSS** for utility-first styling
 - **Recharts** for data visualization
 - **Lucide React** for beautiful icons
-- **Headless UI** for accessible components
+
 
 
 ## Development
