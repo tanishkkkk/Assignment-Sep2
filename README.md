@@ -2,9 +2,9 @@
 This is a React TypeScript project for redesigning the Sentisum customer feedback analytics platform with modern UI/UX principles.
 
 ### Key Focus
-**UI/UX** Improvement and Interactive pie charts
-User **Onboarding flow**
-Smart Alerts with **View all** functionality 
+- **UI/UX** Improvement with Interactive pie charts.
+- product **Onboarding flow**.
+- Smart Alerts with **View all** functionality. 
 
 
 ### Technical Stack
