@@ -54,7 +54,7 @@ const SentimentChart: React.FC<SentimentChartProps> = ({ view = 'pie' }) => {
                 formatter={(value) => <span className="text-sm font-medium">{value}</span>}
               />
               <Bar dataKey="Positive" fill="#10B981" radius={[4, 4, 0, 0]} maxBarSize={40} />
-              {/* <Bar dataKey="Neutral" fill="#6B7280" radius={[4, 4, 0, 0]} maxBarSize={40} /> */}
+              <Bar dataKey="Neutral" fill="#6B7280" radius={[4, 4, 0, 0]} maxBarSize={40} />
               <Bar dataKey="Negative" fill="#EF4444" radius={[4, 4, 0, 0]} maxBarSize={40} />
             </BarChart>
           </ResponsiveContainer>
