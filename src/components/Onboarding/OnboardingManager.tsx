@@ -113,12 +113,7 @@ const OnboardingManager: React.FC<OnboardingManagerProps> = ({ isFirstVisit = fa
     }
   }, [isTourOpen, isPanelVisible, isPanelMinimized]);
 
-  // Reset timer when user interacts with panel
-  const resetAutoHideTimer = useCallback(() => {
-    if (isPanelMinimized) {
-      setIsPanelMinimized(false);
-    }
-  }, [isPanelMinimized]);
+ 
 
   return (
     <>
@@ -157,9 +152,7 @@ const OnboardingManager: React.FC<OnboardingManagerProps> = ({ isFirstVisit = fa
                 'opacity-100 scale-100 visible'
               }
             `}
-            onMouseEnter={resetAutoHideTimer}
-            onMouseMove={resetAutoHideTimer}
-            onTouchStart={resetAutoHideTimer}
+          
           >
               <div className="flex items-center justify-between px-4 py-3 bg-gray-50 border-b border-gray-200">
                 <h3 className="text-sm font-medium text-gray-700">Getting Started</h3>

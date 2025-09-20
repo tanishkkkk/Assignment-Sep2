@@ -1,10 +1,10 @@
 import './App.css'
-import Dashboard from './components/Dashboard'
+import Router from './Router'
 
 function App() {
   return (
     <div className="min-h-screen w-full">
-      <Dashboard />
+      <Router />
     </div>
   )
 }

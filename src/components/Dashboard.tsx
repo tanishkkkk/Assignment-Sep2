@@ -24,10 +24,10 @@ const Dashboard: React.FC = () => {
 
   return (
     <div className="flex h-screen w-full bg-gray-50">
-      <Sidebar selectedView={selectedView} onViewChange={setSelectedView} />
+      {/* <Sidebar selectedView={selectedView} onViewChange={setSelectedView} /> */}
       
       <div className="flex-1 flex flex-col overflow-hidden w-full">
-        <Header />
+        {/* <Header /> */}
         
         <main className="flex-1 overflow-y-auto p-6 xl:p-8 space-y-6 xl:space-y-8 w-full max-w-none dashboard-main-heading">
           {/* Overview Cards */}
@@ -40,7 +40,7 @@ const Dashboard: React.FC = () => {
             <div className="bg-white rounded-xl shadow-soft p-6 sentiment-chart">
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-lg font-semibold text-gray-800">
-                  Sentiment Overview
+                  JIRA Overview
                 </h3>
                 <div className="flex items-center">
                   <button 
@@ -106,7 +106,7 @@ const Dashboard: React.FC = () => {
         </main>
         
         {/* Product Onboarding Tour */}
-        <OnboardingManager isFirstVisit={showOnboarding} />
+        {/* <OnboardingManager isFirstVisit={showOnboarding} /> */}
       </div>
     </div>
   );
